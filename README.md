@@ -1,25 +1,22 @@
 # yaru.nvim
 
-This is the Yaru color scheme for Neovim.
+A Neovim colorscheme based on Ubuntu's [Yaru](https://github.com/ubuntu/yaru) theme, featuring the iconic aubergine and orange palette.
 
 ## Features
 
 - Faithful Yaru palette adapted for dark backgrounds
-- Extra polish for LSP, Telescope, diagnostics, Git signs, and Indent Blankline
-- Terminal colors set for a consistent feel in `:terminal`
+- Treesitter highlighting support
+- LSP, diagnostics, Telescope, GitSigns, and IndentBlankline integration
+- Terminal colors for a consistent `:terminal` experience
 - Optional transparency and italics toggle
+
+## Requirements
+
+- Neovim 0.8+ with `termguicolors` enabled
 
 ## Installation
 
-Install with your favorite plugin manager.
-
-### Packer
-
-```lua
-use "simoneSantoni/yaru.nvim"
-```
-
-### Lazy
+### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
@@ -30,6 +27,12 @@ use "simoneSantoni/yaru.nvim"
     vim.cmd.colorscheme "yaru"
   end,
 }
+```
+
+### [vim-plug](https://github.com/junegunn/vim-plug)
+
+```vim
+Plug 'simoneSantoni/yaru.nvim'
 ```
 
 ## Usage
