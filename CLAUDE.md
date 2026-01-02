@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-yaru.nvim is a Neovim colorscheme plugin implementing the Ubuntu Yaru theme. It's a single-file colorscheme located at `colors/yaru.lua`.
+ubuntu-yaru.nvim is a Neovim colorscheme plugin implementing the Ubuntu Yaru theme. It's a single-file colorscheme located at `colors/yaru.lua`.
 
 ## Development
 

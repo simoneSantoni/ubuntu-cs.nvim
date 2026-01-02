@@ -1,4 +1,4 @@
-# yaru.nvim
+# ubuntu-yaru.nvim
 
 A Neovim colorscheme based on Ubuntu's [Yaru](https://github.com/ubuntu/yaru) theme, featuring the iconic aubergine and orange palette.
 
@@ -20,7 +20,7 @@ A Neovim colorscheme based on Ubuntu's [Yaru](https://github.com/ubuntu/yaru) th
 
 ```lua
 {
-  "simoneSantoni/yaru.nvim",
+  "simoneSantoni/ubuntu-yaru.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -32,7 +32,7 @@ A Neovim colorscheme based on Ubuntu's [Yaru](https://github.com/ubuntu/yaru) th
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'simoneSantoni/yaru.nvim'
+Plug 'simoneSantoni/ubuntu-yaru.nvim'
 ```
 
 ## Usage
